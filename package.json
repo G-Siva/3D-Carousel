@@ -9,6 +9,12 @@
     "vercel-build": "vite build",
     "lint": "eslint . --ext .ts,.tsx"
   },
+  
+  "vercel": {
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist"
+  },
+  
   "engines": {
     "node": ">=18"
   },
